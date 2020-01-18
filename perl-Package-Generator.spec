@@ -1,6 +1,6 @@
 Name:		perl-Package-Generator
 Version:	0.103
-Release:	14%{?dist}
+Release:	13.1%{?dist}
 Summary:	Generate new packages quickly and easily
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -59,9 +59,6 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Package::Reaper.3pm*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.103-14
-- Mass rebuild 2013-12-27
-
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 0.103-13.1
 - Rebuild for perl 5.16
 
